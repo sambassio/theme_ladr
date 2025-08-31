@@ -840,6 +840,51 @@ a.product__text {
     border: none;
     border-radius: 0;
   }
+
+  /* Fix pour empêcher les images de dépasser les bords de l'écran sur mobile */
+  .product-media-modal__content {
+    padding: 1rem;
+    box-sizing: border-box;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    min-height: 100vh;
+  }
+
+  .product-media-modal__content > * {
+    max-width: calc(100vw - 2rem) !important;
+    max-height: calc(100vh - 2rem) !important;
+    object-fit: contain;
+    margin: auto;
+  }
+
+  .product-media-modal__content img {
+    max-width: calc(100vw - 2rem) !important;
+    max-height: calc(100vh - 2rem) !important;
+    width: auto !important;
+    height: auto !important;
+    object-fit: contain;
+    display: block;
+    margin: auto;
+  }
+
+  .product-media-modal__content .media {
+    max-width: calc(100vw - 2rem) !important;
+    max-height: calc(100vh - 2rem) !important;
+    width: auto !important;
+    height: auto !important;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+
+  .product-media-modal__content .media img {
+    max-width: 100% !important;
+    max-height: 100% !important;
+    width: auto !important;
+    height: auto !important;
+    object-fit: contain;
+  }
 }
 
 .product-popup-modal__opener {
