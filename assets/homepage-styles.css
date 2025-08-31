@@ -1,0 +1,151 @@
+/* Homepage Styles - Simple layout with title and 5 products */
+
+/* Basic reset and full-width layout */
+body.template-index, 
+html {
+  margin: 0;
+  padding: 0;
+  width: 100%;
+  overflow-x: hidden;
+  font-family: 'Courier New', monospace;
+  background-color: white;
+}
+
+/* Main container styling */
+body.template-index #MainContent {
+  width: 100%;
+  padding: 3rem 0;
+  margin: 0;
+  overflow-x: hidden;
+}
+
+/* Container for homepage content */
+body.template-index .homepage-container {
+  width: 100%;
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  overflow: hidden;
+}
+
+/* Title styling */
+body.template-index .atelier-title {
+  text-align: center;
+  font-size: 2.5rem;
+  margin: 0 0 4rem 0;
+  font-weight: 400;
+  letter-spacing: 2px;
+  font-family: 'Courier New', monospace;
+}
+
+/* Hide Shopify section title */
+body.template-index .title-wrapper-with-link {
+  display: none !important;
+}
+
+/* Page width class override */
+body.template-index .page-width {
+  width: 100% !important;
+  max-width: 100% !important;
+  padding: 0 2.5% !important;
+  margin: 0 !important;
+  box-sizing: border-box !important;
+}
+
+/* Featured collection section */
+body.template-index .featured-collection {
+  width: 100%;
+  padding: 0;
+  margin: 0;
+  overflow: hidden;
+}
+
+/* Product grid styling */
+body.template-index .featured-collection .grid {
+  display: grid !important;
+  grid-template-columns: repeat(5, 1fr) !important;
+  gap: 2rem !important;
+  width: 100% !important;
+  box-sizing: border-box !important;
+  margin: 0 !important;
+  padding: 0 !important;
+}
+
+/* Large screen optimization */
+@media screen and (min-width: 1601px) {
+  body.template-index .featured-collection .grid {
+    width: 90% !important;
+    max-width: 1800px !important;
+    margin: 0 auto !important;
+  }
+}
+
+/* Hide unwanted sections */
+body.template-index header,
+body.template-index footer,
+body.template-index .announcement-bar,
+body.template-index #shopify-section-header,
+body.template-index #shopify-section-footer {
+  display: none !important;
+}
+
+/* Responsive adjustments for mobile */
+@media screen and (max-width: 990px) {
+  body.template-index .featured-collection .grid {
+    grid-template-columns: repeat(2, 1fr) !important;
+  }
+}
+
+/* Additional fixes for common Shopify themes */
+body.template-index .slider-component,
+body.template-index .shopify-section,
+body.template-index section {
+  width: 100% !important;
+  max-width: 100% !important;
+  margin: 0 !important;
+  padding: 0 !important;
+  box-sizing: border-box !important;
+  overflow: visible !important;
+}
+
+/* Only show the featured collection section */
+body.template-index .shopify-section:not([id*="featured-collection"]):not([id*="featured_collection"]) {
+  display: none !important;
+}
+
+/* Product item styling */
+body.template-index .featured-collection .grid__item {
+  width: 100% !important;
+  padding: 0 !important;
+  margin: 0 !important;
+}
+
+/* Product images */
+body.template-index .featured-collection .card__media {
+  aspect-ratio: 1/1.3;
+  height: auto !important;
+  width: 100% !important;
+}
+
+body.template-index .featured-collection .card__media img {
+  object-fit: cover !important;
+  width: 100% !important;
+  height: 100% !important;
+}
+
+/* Product title styling */
+body.template-index .featured-collection .card__heading {
+  font-size: 1.4rem !important;
+  text-transform: uppercase !important;
+  font-weight: bold !important;
+  margin-top: 1rem !important;
+  letter-spacing: 0.5px !important;
+}
+
+/* Price styling */
+body.template-index .featured-collection .price {
+  color: #777 !important;
+  font-size: 1.3rem !important;
+  font-weight: 400 !important;
+  letter-spacing: 0.02rem !important;
+} 
