@@ -28,8 +28,8 @@
     "featured_collection": {
       "type": "featured-collection",
       "custom_css": [
-        "/* Réduire la taille du texte des prix */.card__content .price-item {font-size: 1rem !important; /* ajuste selon tes besoins : 1rem, 0.9rem, etc. */}",
-        "/* Réduire la taille du titre des produits */.card__content .card__heading a {font-size: 1.1rem !important; /* ajuste aussi ici */}"
+        "/* Réduire la taille du texte des prix */.card__content .price-item {font-size: 1.3rem !important; /* ajuste selon tes besoins : 1rem, 0.9rem, etc. */}",
+        " /* Réduire la taille du titre des produits */.card__content .card__heading a {font-size: 1.7rem !important; /* ajuste aussi ici */}"
       ],
       "settings": {
         "collection": "jeans",
