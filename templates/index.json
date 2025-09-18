@@ -1,1 +1,114 @@
-{"sections":{"image_banner":{"type":"image-banner","disabled":true,"settings":{"image_overlay_opacity":0,"image_height":"small","image_behavior":"ambient","desktop_content_position":"middle-center","desktop_content_alignment":"center","show_text_box":false,"color_scheme":"background-1","stack_images_on_mobile":true,"mobile_content_alignment":"center","show_text_below":true}},"featured_collection":{"type":"featured-collection","settings":{"collection":"jeans","products_to_show":11,"title":"","heading_size":"h2","description":"","show_description":false,"description_style":"body","columns_desktop":4,"enable_desktop_slider":true,"full_width":false,"show_view_all":false,"view_all_style":"solid","color_scheme":"background-1","image_ratio":"portrait","image_shape":"default","show_secondary_image":true,"show_vendor":false,"show_rating":false,"quick_add":"none","columns_mobile":"1","swipe_on_mobile":false,"padding_top":0,"padding_bottom":0}},"image_with_text_4NDHeb":{"type":"image-with-text","blocks":{"heading_9BpQQ6":{"type":"heading","settings":{"heading":"INSTAGRAM","heading_size":"h1"}},"text_afrjhE":{"type":"text","settings":{"text":"<p><em>Plongez dans les coulisses du denim belge<\/em><\/p><p><br\/>Des looks inspirants, les coulisses de notre atelier, et des instants du quotidien qui font notre ADN. Rejoignez notre univers et découvrez comment le style belge prend vie, un jean à la fois<br\/><br\/><br\/><br\/><\/p>","text_style":"body"}},"button_d7UaPE":{"type":"button","settings":{"button_label":"Suivre sur Instagram","button_link":"https:\/\/www.instagram.com\/latelierderaphael_\/","button_style_secondary":false}}},"block_order":["heading_9BpQQ6","text_afrjhE","button_d7UaPE"],"name":"t:sections.image-with-text.presets.name","settings":{"image":"shopify:\/\/shop_images\/WhatsApp_Image_2025-08-09_a_15.31.06_026b36dd.jpg","height":"small","desktop_image_width":"small","layout":"text_first","image_behavior":"none","content_layout":"no-overlap","desktop_content_position":"top","desktop_content_alignment":"left","mobile_content_alignment":"left","section_color_scheme":"","color_scheme":"","padding_top":36,"padding_bottom":36}}},"order":["image_banner","featured_collection","image_with_text_4NDHeb"]}
+/*
+ * ------------------------------------------------------------
+ * IMPORTANT: The contents of this file are auto-generated.
+ *
+ * This file may be updated by the Shopify admin theme editor
+ * or related systems. Please exercise caution as any changes
+ * made to this file may be overwritten.
+ * ------------------------------------------------------------
+ */
+{
+  "sections": {
+    "image_banner": {
+      "type": "image-banner",
+      "disabled": true,
+      "settings": {
+        "image_overlay_opacity": 0,
+        "image_height": "small",
+        "image_behavior": "ambient",
+        "desktop_content_position": "middle-center",
+        "desktop_content_alignment": "center",
+        "show_text_box": false,
+        "color_scheme": "background-1",
+        "stack_images_on_mobile": true,
+        "mobile_content_alignment": "center",
+        "show_text_below": true
+      }
+    },
+    "featured_collection": {
+      "type": "featured-collection",
+      "custom_css": [
+        "/* Réduire la taille du texte des prix */.card__content .price-item {font-size: 1rem !important; /* ajuste selon tes besoins : 1rem, 0.9rem, etc. */}",
+        "/* Réduire la taille du titre des produits */.card__content .card__heading a {font-size: 1.1rem !important; /* ajuste aussi ici */}"
+      ],
+      "settings": {
+        "collection": "jeans",
+        "products_to_show": 11,
+        "title": "",
+        "heading_size": "h2",
+        "description": "",
+        "show_description": false,
+        "description_style": "body",
+        "columns_desktop": 4,
+        "enable_desktop_slider": true,
+        "full_width": false,
+        "show_view_all": false,
+        "view_all_style": "solid",
+        "color_scheme": "background-1",
+        "image_ratio": "portrait",
+        "image_shape": "default",
+        "show_secondary_image": true,
+        "show_vendor": false,
+        "show_rating": false,
+        "quick_add": "none",
+        "columns_mobile": "1",
+        "swipe_on_mobile": false,
+        "padding_top": 0,
+        "padding_bottom": 0
+      }
+    },
+    "image_with_text_4NDHeb": {
+      "type": "image-with-text",
+      "blocks": {
+        "heading_9BpQQ6": {
+          "type": "heading",
+          "settings": {
+            "heading": "INSTAGRAM",
+            "heading_size": "h1"
+          }
+        },
+        "text_afrjhE": {
+          "type": "text",
+          "settings": {
+            "text": "<p><em>Plongez dans les coulisses du denim belge</em></p><p><br/>Des looks inspirants, les coulisses de notre atelier, et des instants du quotidien qui font notre ADN. Rejoignez notre univers et découvrez comment le style belge prend vie, un jean à la fois<br/><br/><br/><br/></p>",
+            "text_style": "body"
+          }
+        },
+        "button_d7UaPE": {
+          "type": "button",
+          "settings": {
+            "button_label": "Suivre sur Instagram",
+            "button_link": "https://www.instagram.com/latelierderaphael_/",
+            "button_style_secondary": false
+          }
+        }
+      },
+      "block_order": [
+        "heading_9BpQQ6",
+        "text_afrjhE",
+        "button_d7UaPE"
+      ],
+      "name": "t:sections.image-with-text.presets.name",
+      "settings": {
+        "image": "shopify://shop_images/WhatsApp_Image_2025-08-09_a_15.31.06_026b36dd.jpg",
+        "height": "small",
+        "desktop_image_width": "small",
+        "layout": "text_first",
+        "image_behavior": "none",
+        "content_layout": "no-overlap",
+        "desktop_content_position": "top",
+        "desktop_content_alignment": "left",
+        "mobile_content_alignment": "left",
+        "section_color_scheme": "",
+        "color_scheme": "",
+        "padding_top": 36,
+        "padding_bottom": 36
+      }
+    }
+  },
+  "order": [
+    "image_banner",
+    "featured_collection",
+    "image_with_text_4NDHeb"
+  ]
+}
